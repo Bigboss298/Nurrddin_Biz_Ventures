@@ -1,0 +1,60 @@
+C:\Users\Abdullah\Desktop\My_Project_Continued\bin\Debug\net7.0\My_Project_Continued.exe
+C:\Users\Abdullah\Desktop\My_Project_Continued\bin\Debug\net7.0\My_Project_Continued.deps.json
+C:\Users\Abdullah\Desktop\My_Project_Continued\bin\Debug\net7.0\My_Project_Continued.runtimeconfig.json
+C:\Users\Abdullah\Desktop\My_Project_Continued\bin\Debug\net7.0\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued\bin\Debug\net7.0\My_Project_Continued.pdb
+C:\Users\Abdullah\Desktop\My_Project_Continued\obj\Debug\net7.0\My_Project_Continued.csproj.AssemblyReference.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued\obj\Debug\net7.0\My_Project_Continued.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah\Desktop\My_Project_Continued\obj\Debug\net7.0\My_Project_Continued.AssemblyInfoInputs.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued\obj\Debug\net7.0\My_Project_Continued.AssemblyInfo.cs
+C:\Users\Abdullah\Desktop\My_Project_Continued\obj\Debug\net7.0\My_Project_Continued.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued\obj\Debug\net7.0\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued\obj\Debug\net7.0\refint\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued\obj\Debug\net7.0\My_Project_Continued.pdb
+C:\Users\Abdullah\Desktop\My_Project_Continued\obj\Debug\net7.0\My_Project_Continued.genruntimeconfig.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued\obj\Debug\net7.0\ref\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\bin\Debug\net7.0\My_Project_Continued.exe
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\bin\Debug\net7.0\My_Project_Continued.deps.json
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\bin\Debug\net7.0\My_Project_Continued.runtimeconfig.json
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\bin\Debug\net7.0\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\bin\Debug\net7.0\My_Project_Continued.pdb
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\obj\Debug\net7.0\My_Project_Continued.csproj.AssemblyReference.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\obj\Debug\net7.0\My_Project_Continued.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\obj\Debug\net7.0\My_Project_Continued.AssemblyInfoInputs.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\obj\Debug\net7.0\My_Project_Continued.AssemblyInfo.cs
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\obj\Debug\net7.0\My_Project_Continued.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\obj\Debug\net7.0\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\obj\Debug\net7.0\refint\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\obj\Debug\net7.0\My_Project_Continued.pdb
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\obj\Debug\net7.0\My_Project_Continued.genruntimeconfig.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy\obj\Debug\net7.0\ref\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\bin\Debug\net7.0\My_Project_Continued.exe
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\bin\Debug\net7.0\My_Project_Continued.deps.json
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\bin\Debug\net7.0\My_Project_Continued.runtimeconfig.json
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\bin\Debug\net7.0\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\bin\Debug\net7.0\My_Project_Continued.pdb
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\obj\Debug\net7.0\My_Project_Continued.csproj.AssemblyReference.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\obj\Debug\net7.0\My_Project_Continued.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\obj\Debug\net7.0\My_Project_Continued.AssemblyInfoInputs.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\obj\Debug\net7.0\My_Project_Continued.AssemblyInfo.cs
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\obj\Debug\net7.0\My_Project_Continued.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\obj\Debug\net7.0\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\obj\Debug\net7.0\refint\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\obj\Debug\net7.0\My_Project_Continued.pdb
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\obj\Debug\net7.0\My_Project_Continued.genruntimeconfig.cache
+C:\Users\Abdullah\Desktop\My_Project_Continued - Copy - Copy\obj\Debug\net7.0\ref\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\bin\Debug\net7.0\My_Project_Continued.exe
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\bin\Debug\net7.0\My_Project_Continued.deps.json
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\bin\Debug\net7.0\My_Project_Continued.runtimeconfig.json
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\bin\Debug\net7.0\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\bin\Debug\net7.0\My_Project_Continued.pdb
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\obj\Debug\net7.0\My_Project_Continued.csproj.AssemblyReference.cache
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\obj\Debug\net7.0\My_Project_Continued.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\obj\Debug\net7.0\My_Project_Continued.AssemblyInfoInputs.cache
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\obj\Debug\net7.0\My_Project_Continued.AssemblyInfo.cs
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\obj\Debug\net7.0\My_Project_Continued.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\obj\Debug\net7.0\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\obj\Debug\net7.0\refint\My_Project_Continued.dll
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\obj\Debug\net7.0\My_Project_Continued.pdb
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\obj\Debug\net7.0\My_Project_Continued.genruntimeconfig.cache
+C:\Users\Abdullah\Desktop\Nurrdin_Biz_Ventures Multi_Branch\obj\Debug\net7.0\ref\My_Project_Continued.dll

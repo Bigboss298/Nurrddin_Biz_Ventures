@@ -1,0 +1,19 @@
+NURRDIN BIZ VENTURES
+
+What Appication does : 
+
+Customer : 1. Register 
+           2. Login
+           3. Check all available products, by Name, by Brand and check all.
+           4. Add money to wallet.
+           5. Purchase products
+
+
+Super Admin:   1. Register Branch
+               2. Assign Manager to branch
+               3. Check All products
+               4. View all unsold products
+               5. View all sold products
+
+Branch Manager :    1. Add products to store
+                    2. 

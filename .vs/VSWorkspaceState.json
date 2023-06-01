@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Managers",
+    "\\Managers\\Implementation",
+    "\\Managers\\Interface",
+    "\\Models",
+    "\\Models\\Entities"
+  ],
+  "SelectedNode": "\\Managers\\Interface\\ICarManager.cs",
+  "PreviewInSolutionExplorer": false
+}
