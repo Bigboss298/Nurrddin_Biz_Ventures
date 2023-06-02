@@ -327,20 +327,20 @@ namespace My_Project_Continued.Menu
                               Customer();
                          }
                     }
-                    catch (NullReferenceException e)
+                    catch (NullReferenceException)
                     {
                          System.Console.WriteLine();
                          Console.ForegroundColor = ConsoleColor.Cyan;
-                         System.Console.WriteLine(e.Message);
+                         System.Console.WriteLine("Kindly check your inputs and try again!!!, it doesn't exit");
                          Console.ResetColor();
 
                          Customer();
                     }
-                    catch (FormatException e)
+                    catch (FormatException)
                     {
                          System.Console.WriteLine();
                          Console.ForegroundColor = ConsoleColor.Cyan;
-                         System.Console.WriteLine(e.Message);
+                         System.Console.WriteLine("your input box is either empty or your are inputting the wrong format!!!");
                          Console.ResetColor();
 
                          Customer();
