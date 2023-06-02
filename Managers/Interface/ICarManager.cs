@@ -14,5 +14,6 @@ namespace My_Project_Continued.Managers.Interface
         List<Car> ViewSold();
         List<Car> ViewUnsold();
         List<Car> View(Location location);
+
     }
 }

@@ -179,14 +179,14 @@ namespace My_Project_Continued.Menu
                               }
                          }
 
-                         catch (NullReferenceException e)
+                         catch (NullReferenceException)
                          {
 
-                              System.Console.WriteLine($"Error : {e.Message}");
+                              System.Console.WriteLine("Kindly check your inputs and try again!!!, it doesn't exit");
                          }
-                         catch (FormatException e)
+                         catch (FormatException)
                          {
-                              System.Console.WriteLine($"Error : {e.Message}");
+                              System.Console.WriteLine("your input box is either empty or your are inputting the wrong format!!!");
                          }
                     }
                     else

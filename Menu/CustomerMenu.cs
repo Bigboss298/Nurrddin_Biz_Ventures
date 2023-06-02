@@ -20,7 +20,7 @@ namespace My_Project_Continued.Menu
                System.Console.WriteLine("---------------------------------------------Customer Menu--------------------------------------------------------");
                Console.ResetColor();
 
-               System.Console.Write("Enter 1 view all cars by thier brand Name \nEnter 2 to view all cars by thier name \nEnter 3 to add money to your wallet \nEnter 4 to check your Wallet Balance \nEnter 5 to purchase a car \nEnter 6 to track deposits with thier reference Number \nEnter 7 to logout \nEnter here : ");
+               System.Console.Write("Enter 1 view all cars by thier brand Name \nEnter 2 to view all cars by thier name \nEnter 3 to add money to your wallet \nEnter 4 to check your Wallet Balance \nEnter 5 to purchase a car \nEnter 6 to track deposits with thier reference Number \nEnter 7 to check all  cars available \nEnter 8 to logout \nEnter here : ");
                // int opt = int.Parse(Console.ReadLine());
                int opt;
                bool isValid = int.TryParse(Console.ReadLine(), out opt);
@@ -131,7 +131,26 @@ namespace My_Project_Continued.Menu
                                         Customer();
                                    }
                                    break;
-                              case 7:
+                              case 7: 
+                                   {
+                                        var cars = _carManager.GetAll();
+                                        if (cars == null)
+                                        {
+                                             System.Console.WriteLine();
+                                             System.Console.WriteLine("No car in the store");
+                                        }
+                                        else 
+                                        {
+                                             System.Console.WriteLine();
+                                             System.Console.WriteLine("----------------------------------------------------LIST OF CARS-----------------------------------------");
+                                             foreach (var car in cars)
+                                             {
+                                                  System.Console.WriteLine($"Brand : {car.Brand} \nName : {car.Name} \nColor : {car.Color} \nStatus : {car.Status} \nModel : {car.Model} \nLocation : {car.BranchLocation} \nUIN : {car.UniqueNumber}");
+                                             }
+                                        }
+                                   }
+                                   break;
+                              case 8:
                                    {
                                         MainMenu main = new MainMenu();
                                         main.Main();
