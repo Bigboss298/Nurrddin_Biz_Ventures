@@ -51,7 +51,7 @@ namespace My_Project_Continued.Managers.Implementation
                                    payer.WalletBalance -= amount;
                                    reciever.WalletBalance += amount;
                                    // var message = ;
-                                   msg.Message += $"{payer.WalletName} just a made purchase of \nBrand : {price.Model} \nCar Name : {price.Name} \nPrice of Car : {price.Price} \nUnique Number : {price.UniqueNumber}\n";
+                                   msg.Message += $"{payer.WalletName} just a made purchase of \nCar Brand : {price.Model} \nCar Name : {price.Name} \nPrice of Car : {price.Price:C} \nUnique Number : {price.UniqueNumber}\n";
                                    
                                    Payment payment = new Payment(PaymentDb.Count + 1, beneficiaryWalletId, benefactorWalletId, pin, amount, GenPayRefNum(), false, DateTime.Now);
                                    PaymentDb.Add(payment);
@@ -62,7 +62,7 @@ namespace My_Project_Continued.Managers.Implementation
 
                                    payer.WalletBalance -= (amount + 2000);
                                    reciever.WalletBalance += (amount + 2000);
-                                   msg.Message += $"{payer.WalletName} a customer from your branch just  made a purchase of \nCar Brand : {price.Brand} \nCar Name : {price.Name} \nCar Model : {price.Model}\nPrice of Car : {price.Price} \nUnique Number : {price.UniqueNumber} \nColor : {price.Color} ";
+                                   msg.Message += $"{payer.WalletName} a customer from your location just  made a purchase of \nCar Brand : {price.Brand} \nCar Name : {price.Name} \nCar Model : {price.Model}\nPrice of Car : {price.Price:C} \nUnique Number : {price.UniqueNumber} \nColor : {price.Color} in another branch";
 
 
 

@@ -128,6 +128,7 @@ namespace My_Project_Continued.Menu
                                              System.Console.WriteLine();
                                              System.Console.WriteLine($"Depositor Id : {deposit.WalletId} \nAmount : {deposit.Amount:C} \nDate Deposited : {deposit.DateCreated} \nReference Number : {deposit.DepositRefNumber}");
                                         }
+                                        Customer();
                                    }
                                    break;
                               case 7:

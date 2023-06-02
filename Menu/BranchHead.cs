@@ -16,7 +16,7 @@ namespace My_Project_Continued.Menu
                Console.ForegroundColor = ConsoleColor.DarkCyan;
                System.Console.WriteLine("----------------------------------------------Branch Head--------------------------------------------------------");
                Console.ResetColor();
-               System.Console.Write("Enter \n1 to add a Car to the store \n2 to check all your product \n3 to check cars by name \n4 to check cars by brand \n5 to view all sold Cars in your branch \n6 to view all unsold cars \nEnter 7 to check messages \n9 to Logout \nEnter : ");
+               System.Console.Write("Enter \n1 to add a Car to the store \n2 to check all your product \n3 to check cars by name \n4 to check cars by brand \n5 to view all sold Cars in your branch \n6 to view all unsold cars \n7 to check messages \n8 to Logout \nEnter : ");
                int opt;
                bool isValid = int.TryParse(Console.ReadLine(), out opt);
                if (isValid)
@@ -47,6 +47,8 @@ namespace My_Project_Continued.Menu
 
                                         var _getloc = _branchHeadManager.GetBy(headname);
                                         var loc = _getloc.BranchLocation;
+
+                                        System.Console.WriteLine();
 
 
                                         _carManager.Add(brand, name, color, model, price, Status.Unsold, loc);
@@ -206,12 +208,6 @@ namespace My_Project_Continued.Menu
                                    break;
                               case 8:
                                    {
-                                        branch();
-                                   }
-                                   break;
-
-                              case 9:
-                                   {
                                         MainMenu main = new MainMenu();
                                         main.Main();
                                    }
@@ -231,6 +227,8 @@ namespace My_Project_Continued.Menu
                          Console.ForegroundColor = ConsoleColor.DarkCyan;
                          System.Console.WriteLine(e.Message);
                          Console.ResetColor();
+
+                         branch();
                     }
                     catch (FormatException e)
                     {
@@ -238,6 +236,8 @@ namespace My_Project_Continued.Menu
                          Console.ForegroundColor = ConsoleColor.DarkCyan;
                          System.Console.WriteLine(e.Message);
                          Console.ResetColor();
+
+                         branch();
                     }
 
                }

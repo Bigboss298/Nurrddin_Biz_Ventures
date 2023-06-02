@@ -64,7 +64,7 @@ namespace My_Project_Continued.Menu
                                              System.Console.Write("Enter the Password to login in : ");
                                              string password = Console.ReadLine();
 
-                                             System.Console.Write("Enter the Branch Transaction Pin : ");
+                                             System.Console.Write("Enter the wallet Pin : ");
                                              int pin = int.Parse(Console.ReadLine());
 
 
