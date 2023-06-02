@@ -48,6 +48,10 @@ namespace My_Project_Continued.Managers.Implementation
           }
           public List<Branch> GetAll()
           {
+               if(BranchDb.Count == 0)
+               {
+                    return null;
+               }
                return BranchDb;
           }
           private bool CheckBranch(Location branchLocation)

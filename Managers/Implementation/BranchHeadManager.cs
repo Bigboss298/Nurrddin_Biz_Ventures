@@ -37,6 +37,10 @@ namespace My_Project_Continued.Managers.Implementation
           }
           public List<BranchHead> GetAll()
           {
+               if(branchHeadsDb.Count == 0)
+               {
+                    return null;
+               }
                return branchHeadsDb;
           }
 

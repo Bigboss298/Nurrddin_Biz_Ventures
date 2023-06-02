@@ -53,6 +53,10 @@ namespace My_Project_Continued.Managers.Implementation
 
           public List<Car> GetAll()
           {
+               if(CarDb.Count == 0)
+               {
+                    return null;
+               }
                return CarDb;
           }
 

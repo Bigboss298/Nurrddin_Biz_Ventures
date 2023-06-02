@@ -24,6 +24,10 @@ namespace My_Project_Continued.Managers.Implementation
 
           public List<Deposit> GetAll()
           {
+               if(DepositDb.Count == 0)
+               {
+                    return null;
+               }
                return DepositDb;
           }
 

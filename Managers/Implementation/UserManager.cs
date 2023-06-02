@@ -29,6 +29,10 @@ namespace My_Project_Continued.Managers.Implementation
 
           public List<User> GetAll()
           {
+               if(UserDb.Count <= 1)
+               {
+                    return null;
+               }
                return UserDb;
           }
 

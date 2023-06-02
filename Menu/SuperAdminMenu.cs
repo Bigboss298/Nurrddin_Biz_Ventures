@@ -11,21 +11,23 @@ namespace My_Project_Continued.Menu
           IWalletManager _walletName = new WalletManager();
           ICarManager _carManager = new CarManager();
           IBranchHeadManager _branchHead = new BranchHeadManager();
+          ICustomerManager _customer = new CustomerManager();
+          IUserManager _user = new UserManager();
           public void SuperAdmin()
           {
 
                //int.TryParse(Console.ReadLine(), out inp);
                while (true)
                {
-                   
+
                     System.Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     System.Console.WriteLine("------------------------------------------Super Admin---------------------------------------");
                     Console.ResetColor();
-                    System.Console.Write("Enter 1 to Register a Branch and assign a Branch head \n2 to view all sold car \n3 to view all unsold cars \n4 to check your wallet Balanace \n5 to view all Branch Managers \n6 to log out : ");
+                    System.Console.Write("Enter 1 to Register a Branch and assign a Branch head \n2 to view all sold car \n3 to view all unsold cars \n4 to check your wallet Balanace \n5 to view all Branch Managers \n6 to view all customers \n7 To view all cars \n8 To viell all payment made \n9 to log out : ");
                     int inp;
                     bool isValid = int.TryParse(Console.ReadLine(), out inp);
-                    if (isValid && inp >= 1 && inp < 7)
+                    if (isValid && inp >= 1 && inp <= 7)
                     // if (isValid)
                     {
                          try
@@ -97,7 +99,7 @@ namespace My_Project_Continued.Menu
                                              if (sold == null)
                                              {
                                                   System.Console.WriteLine();
-                                                 
+
                                                   Console.ForegroundColor = ConsoleColor.DarkRed;
                                                   System.Console.WriteLine("No sales made yet!!!");
                                                   Console.ResetColor();
@@ -166,6 +168,72 @@ namespace My_Project_Continued.Menu
                                         break;
                                    case 6:
                                         {
+
+                                             var user = _user.GetAll();
+                                             if (user == null)
+                                             {
+                                                  System.Console.WriteLine();
+                                                  System.Console.WriteLine("No customer account yet!!!");
+                                             }
+                                             else
+                                             {
+                                                  foreach (var cust in user)
+                                                  {
+                                                       if (cust.Role.ToUpper() == "CUSTOMER")
+                                                       {
+                                                            System.Console.WriteLine();
+                                                            System.Console.WriteLine("------------------------------------------------Customers-----------------------------------------------------");
+                                                            System.Console.WriteLine($"Name : {cust.FirstName} {cust.LastName} \nLocation : {cust.Location} \nEmail Address : {cust.Email} \nPhone Number : {cust.PhoneNumber} \nGender : {cust.Gender}");
+                                                       }
+                                                  }
+                                             }
+                                             SuperAdmin();
+                                        }
+                                        break;
+                                   case 7:
+                                        {
+                                             var cars = _carManager.GetAll();
+                                             if (cars == null)
+                                             {
+                                                  System.Console.WriteLine();
+                                                  System.Console.WriteLine("No car in your stores yet!!!");
+                                             }
+                                             else
+                                             {
+                                                  System.Console.WriteLine();
+                                                  System.Console.WriteLine("----------------------------------------------------LIST OF CARS-----------------------------------------");
+                                                  foreach (var car in cars)
+                                                  {
+                                                       System.Console.WriteLine();
+                                                       System.Console.WriteLine($"Brand : {car.Brand} \nName : {car.Name} \nColor : {car.Color} \nStatus : {car.Status} \nModel : {car.Model} \nLocation : {car.BranchLocation} \nUIN : {car.UniqueNumber}");
+                                                  }
+                                             }
+                                             SuperAdmin();
+
+                                        }
+                                        break;
+                                   case 8:
+                                        {
+                                             IPaymentManager _payment = new PaymentManager();
+                                             var pays = _payment.GetAll();
+                                             if (pays == null)
+                                             {
+                                                  System.Console.WriteLine();
+                                                  System.Console.WriteLine("No Payment Made yet!!!");
+                                             }
+                                             else
+                                             {
+                                                  foreach (var pay in pays)
+                                                  {
+                                                       System.Console.WriteLine();
+                                                       System.Console.WriteLine($"Customer Wallet Id : {pay.BenefactorWalletId} \nAmount Paid : {pay.Amount} \nReference Number : {pay.PaymentRefNumber} \nDate Paid : {pay.DateCreated}");
+                                                  }
+                                             }
+                                             SuperAdmin();
+                                        }
+                                        break;
+                                   case 9:
+                                        {
                                              MainMenu main = new MainMenu();
                                              main.Main();
                                         }
@@ -181,12 +249,20 @@ namespace My_Project_Continued.Menu
 
                          catch (NullReferenceException)
                          {
-
+                              System.Console.WriteLine();
+                              Console.ForegroundColor = ConsoleColor.DarkCyan;
                               System.Console.WriteLine("Kindly check your inputs and try again!!!, it doesn't exit");
+                              Console.ResetColor();
+                              SuperAdmin();
+
                          }
                          catch (FormatException)
                          {
+                              System.Console.WriteLine();
+                              Console.ForegroundColor = ConsoleColor.DarkCyan;
                               System.Console.WriteLine("your input box is either empty or your are inputting the wrong format!!!");
+                              Console.ResetColor();
+                              SuperAdmin();
                          }
                     }
                     else

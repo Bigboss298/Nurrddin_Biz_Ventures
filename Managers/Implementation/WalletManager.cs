@@ -44,6 +44,10 @@ namespace My_Project_Continued.Managers.Implementation
 
           public List<Wallet> GetAll()
           {
+              if(WalletDb.Count <= 1)
+              {
+                    return null;
+              }
               return WalletDb;
           }
 

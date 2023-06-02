@@ -20,7 +20,7 @@ namespace My_Project_Continued.Menu
                System.Console.WriteLine("---------------------------------------------Customer Menu--------------------------------------------------------");
                Console.ResetColor();
 
-               System.Console.Write("Enter 1 view all cars by thier brand Name \nEnter 2 to view all cars by thier name \nEnter 3 to add money to your wallet \nEnter 4 to check your Wallet Balance \nEnter 5 to purchase a car \nEnter 6 to track deposits with thier reference Number \nEnter 7 to check all  cars available \nEnter 8 to logout \nEnter here : ");
+               System.Console.Write("Enter 1 view all cars by thier brand Name \nEnter 2 to view all cars by thier name \nEnter 3 to add money to your wallet \nEnter 4 to check your Wallet Balance \nEnter 5 to purchase a car \nEnter 6 to track deposits with thier reference Number \nEnter 7 to check all  cars available \n8 To view all your deposit \n9 To logout \nEnter here : ");
                // int opt = int.Parse(Console.ReadLine());
                int opt;
                bool isValid = int.TryParse(Console.ReadLine(), out opt);
@@ -145,12 +145,37 @@ namespace My_Project_Continued.Menu
                                              System.Console.WriteLine("----------------------------------------------------LIST OF CARS-----------------------------------------");
                                              foreach (var car in cars)
                                              {
+                                                  System.Console.WriteLine();
                                                   System.Console.WriteLine($"Brand : {car.Brand} \nName : {car.Name} \nColor : {car.Color} \nStatus : {car.Status} \nModel : {car.Model} \nLocation : {car.BranchLocation} \nUIN : {car.UniqueNumber}");
                                              }
                                         }
                                    }
                                    break;
                               case 8:
+                                   {
+                                        System.Console.Write("Enter your wallet Id : ");
+                                        var id = Console.ReadLine();
+
+                                        var depos = _depositManager.GetAll();
+                                        if(depos == null)
+                                        {
+                                             System.Console.WriteLine();
+                                             System.Console.WriteLine("You havent't added money to your wallet so far!!!");
+                                        }
+                                        else 
+                                        {
+                                             foreach (var depo in depos)
+                                             {
+                                                  if(depo.WalletId == id)
+                                                  {
+                                                       System.Console.WriteLine();
+                                                       System.Console.WriteLine($"Amount : {depo.Amount} \nWallet Id : {depo.WalletId} \nRefernce Number : {depo.DepositRefNumber} \nDate Deposited : {depo.DateCreated}");
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   break;
+                              case 9:
                                    {
                                         MainMenu main = new MainMenu();
                                         main.Main();

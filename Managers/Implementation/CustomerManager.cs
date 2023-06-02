@@ -24,6 +24,10 @@ namespace My_Project_Continued.Managers.Implementation
 
           public List<Customer> GetAll()
           {
+               if(CustomerDb.Count == 0)
+               {
+                    return null;
+               }
                return CustomerDb;
           }
 
